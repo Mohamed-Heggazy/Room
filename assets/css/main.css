@@ -1,0 +1,96 @@
+.gg {
+  display: none;
+}
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.navb {
+  background-image: url(../images/desktop-image-hero-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 534px;
+}
+.room {
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+.nav-color {
+  color: #fffffd !important;
+}
+.anc {
+  font-family: "Protest Strike", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+h1 {
+  font-family: "Protest Strike", sans-serif;
+}
+main p {
+  color: #999999;
+  font-size: 15px;
+}
+#section2 img {
+  width: 100%;
+}
+h5 {
+  font-weight: 600;
+  font-family: "Protest Strike", sans-serif;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1180px) {
+  .navb {
+    height: 450px;
+  }
+}
+@media (max-width: 1050px) {
+  .navb {
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .gg {
+    display: block;
+  }
+  .ggg {
+    display: none;
+  }
+  .navb {
+    height: 600px;
+  }
+}
+
+@media (max-width: 880px) {
+  .navb {
+    height: 500px;
+  }
+}
+
+@media (max-width: 690px) {
+  .navb {
+    height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navb {
+    height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navb {
+    height: 350px;
+  }
+}
+
+@media (max-width: 440px) {
+  .navb {
+    height: 300px;
+  }
+}
